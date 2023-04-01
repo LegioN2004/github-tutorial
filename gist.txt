@@ -22,3 +22,5 @@ upstream here pulls from the upstream url and main means from the main branch of
 then you can push the changes to the origin/main branch so as to make the forked repo's main branch in sync with the upstream branch's main
 
 ---------------------------------------------------------------------------------------
+
+if you want to merge all the commits in one commit without doing a reset and then git adding all the files aaaaaaand then commiting
