@@ -24,3 +24,6 @@ then you can push the changes to the origin/main branch so as to make the forked
 ---------------------------------------------------------------------------------------
 
 if you want to merge all the commits in one commit without doing a reset and then git adding all the files aaaaaaand then commiting
+then use the 'git rebase -i _____' ( -i means interactive type i.e in nvim vim type and in the underline use the hash of the commit messaeg from the git log )
+you will get option pick and squash written in the front of the half hash of the file with the file names 
+pick means taking the commit   and squash/s means that it'll merge its commit( i.e the file where it is written as s ) from the bottom till the top until the first pick comes
